@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleFunction.Api", "Src\SampleFunction.Api\SampleFunction.Api.csproj", "{CF897446-13A5-461B-BA66-3D3ACF4B1952}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A0DE0224-29A2-4928-A505-AD54B4221DCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9AE9987C-6567-43EB-80CC-AAC7A52E3E33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{FB24BA68-CE73-4C77-848F-FFCCDCCE5108}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleFunction.Api.UnitTests", "Tests\UnitTests\SampleFunction.Api.UnitTests\SampleFunction.Api.UnitTests.csproj", "{514F6A08-536A-4D31-8A8B-A497D9145331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF897446-13A5-461B-BA66-3D3ACF4B1952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF897446-13A5-461B-BA66-3D3ACF4B1952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF897446-13A5-461B-BA66-3D3ACF4B1952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF897446-13A5-461B-BA66-3D3ACF4B1952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514F6A08-536A-4D31-8A8B-A497D9145331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514F6A08-536A-4D31-8A8B-A497D9145331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514F6A08-536A-4D31-8A8B-A497D9145331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514F6A08-536A-4D31-8A8B-A497D9145331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF897446-13A5-461B-BA66-3D3ACF4B1952} = {A0DE0224-29A2-4928-A505-AD54B4221DCC}
+		{FB24BA68-CE73-4C77-848F-FFCCDCCE5108} = {9AE9987C-6567-43EB-80CC-AAC7A52E3E33}
+		{514F6A08-536A-4D31-8A8B-A497D9145331} = {FB24BA68-CE73-4C77-848F-FFCCDCCE5108}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2C2D430-2EE6-4DE4-8CF3-2EE9A5B0AF97}
+	EndGlobalSection
+EndGlobal

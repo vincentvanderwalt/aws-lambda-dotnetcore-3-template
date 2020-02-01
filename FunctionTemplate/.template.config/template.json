@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Vincent van der Walt",
+  "classifications": ["AWS", "Lambda", "Serverless", "DotNetCore", "C#8"],
+  "identity": "serverless.DotNetCore3",
+  "name": "Lambda DotNetCore 3.1 Function",
+  "shortName": "serverless.DotNetCore3",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "ServiceName": {
+      "type": "parameter",
+      "datatype": "string",
+      "replaces": "Sample",
+      "fileRename": "Sample",
+      "description": "The name of the function (Singular, PascalCasing)",
+      "isRequired": true
+    },
+    "LowerCaseServiceName": {
+      "type": "generated",
+      "generator": "casing",
+      "parameters": {
+        "source": "ServiceName",
+        "toLower": true
+      },
+      "replaces": "sample"
+    }
+  },
+  "sources": [],
+  "guids": [
+    "a3c6bf0e-459f-4e77-a519-94e06556283b",
+    "88e0eb7a-c8c4-4d89-a0a9-d8324c2b36db",
+    "ee788ab9-1131-476d-805d-cdcdc3cb52ce",
+    "15941e8d-5222-414c-9c8c-0de2e92b848e",
+    "fe6092d6-9dec-4c1f-b452-d2b4bf0e934d",
+    "f0525954-b9d3-4958-af22-62292bdb16bd",
+    "1f454098-6a96-4b3f-ace3-fc7c5c279297",
+    "27c90c9b-9320-4de1-8088-4e0bed81c01a",
+    "ca61f32c-47cc-4c45-b09a-7cf34080678d",
+    "0f2cbb96-6af0-4e07-b948-37bc7e5a3bdb"
+  ]
+}
