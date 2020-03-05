@@ -15,7 +15,13 @@ To install the template :
 dotnet new -i .\
 ```
 
-After running that, you now have access to a template with a short new of `serverless.DotNetCore3`
+After running that, you now have access to a template with a short name of `serverless.DotNetCore3`
+
+To uninstall the Template
+
+```sh
+dotnet new -u <ABSOLUTE_FILE_SYSTEM_DIRECTORY>
+```
 
 ### Template usage
 
