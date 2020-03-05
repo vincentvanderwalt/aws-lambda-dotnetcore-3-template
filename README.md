@@ -40,3 +40,23 @@ dotnet new serverless.DotNetCore3 -sn sample
 ```
 
 This will create a solution and function project for you, including a sample controller and sample unit test
+
+## Local testing
+
+You can test it locally by debugging with the IIS Express option.
+
+For the default project that starts up with the template, navigate to
+
+```sh
+localhost:{PORT}/api/values
+```
+
+## Lambda deployment
+
+To deploy the function to AWS
+
+```sh
+dotnet lambda deploy-serverless
+```
+
+And follow the standard process as recommended by AWS
